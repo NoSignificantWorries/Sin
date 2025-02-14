@@ -4,10 +4,10 @@
 #include <memory>
 
 
-#ifdef USE_FLOAT
-typedef float value;
-#else
+#ifdef USE_DOUBLE
 typedef double value;
+#else
+typedef float value;
 #endif
 
 
